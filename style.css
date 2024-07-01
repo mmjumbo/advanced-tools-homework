@@ -51,6 +51,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.primary-link:hover {
+  color: white;
+}
 
 .secondary-link {
   border-radius: 4px;
@@ -87,7 +90,7 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 575px) {
   h1 {
     font-size: 45px;
     line-height: 1.5;
@@ -95,6 +98,14 @@ p {
 
   h2 {
     font-size: 30px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
 
+  .project-link {
+    display: block;
+    text-align: center;
+  }
 }
